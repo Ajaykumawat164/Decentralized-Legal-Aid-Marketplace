@@ -41,3 +41,4 @@ To democratize access to legal assistance by creating a decentralized platform w
 - 🔍 **Transparent Records**: All case and lawyer data is publicly viewable on-chain.
 ## Contract Address 
 0xBa2B9d815b2272EdD00d81b7979Bba07903dA9a8
+![image](https://github.com/user-attachments/assets/c1ca394d-2e27-4628-bffd-1b6ee5abb37c)
