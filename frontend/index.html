@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Decentralized Legal Aid Marketplace</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>⚖️ Legal Aid Marketplace</h1>
+
+    <section class="card">
+      <h2>Register as a Lawyer</h2>
+      <input type="text" id="lawyerName" placeholder="Full Name" />
+      <input type="text" id="specialization" placeholder="Specialization" />
+      <button onclick="registerLawyer()">Register</button>
+    </section>
+
+    <section class="card">
+      <h2>Create Legal Case</h2>
+      <input type="text" id="caseDescription" placeholder="Describe your legal issue" />
+      <input type="number" id="caseBudget" placeholder="Budget in ETH" />
+      <button onclick="createCase()">Submit Case</button>
+    </section>
+
+    <section class="card">
+      <h2>Take a Case</h2>
+      <input type="number" id="caseIdToTake" placeholder="Case ID" />
+      <button onclick="takeCase()">Take Case</button>
+    </section>
+
+    <section class="card">
+      <h2>Resolve a Case</h2>
+      <input type="number" id="caseIdToResolve" placeholder="Case ID" />
+      <button onclick="resolveCase()">Resolve Case</button>
+    </section>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.10.0/dist/web3.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
